@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typedoc": "^0.24.7",
+    "typescript": "^5.0.4"
+  },
+  "name": "downfetch",
+  "description": "Versatile and powerful npm package that allows you to effortlessly download content from a variety of popular platforms.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "ts-node test/index.ts",
+    "build": "tsc",
+    "docs": "typedoc --out docs src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
